@@ -6,8 +6,8 @@ public class Chatclient {
        try{
            System.out.println("Starting client....");
            System.out.println("Client Started Successfully....");
-           System.out.println("Type your message here...");
-           System.out.println("--------------------------");
+           System.out.println("Type your message here...\n--------------------------");
+           //System.out.println("");
            Socket s = new Socket("127.0.0.1",1201);
            //Socket s = ss.accept();
            
